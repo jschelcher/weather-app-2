@@ -1,0 +1,65 @@
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border: black;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5px 100px 5px 100px;
+    padding: 30px;
+  }
+  .main {
+    text-align: right;
+    font-size: medium;
+  }
+  h3 {
+    text-align: right;
+    font-size: medium;
+  }
+  
+  .current {
+    font-size: x-large;
+  }
+  .fa-solid.fa-sun {
+    color: rgb(250, 250, 103);
+    font-size: xx-large;
+  }
+  .fa-solid.fa-cloud-sun {
+    color: #79c2d0;
+    font-size: xx-large;
+  }
+  h2 {
+    position: relative;
+    top: -60px;
+    font-size: medium;
+  }
+  .row {
+    text-align: center;
+  }
+  .col-2.Monday {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  .col-2.Tuesday {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  .col-2.Wednesday {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  .col-2.Thursday {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  .col-2.Friday {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  #search {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
