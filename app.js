@@ -51,6 +51,8 @@ axios.get(url).then(currentWeather);
 
 function currentWeather(response) {
 let temp = response.data.main.temp;
-let h1 = document.querySelector("h1")
+let h1 = document.querySelector("span")
 h1.innerHTML = `Currently ${temp}˚F`;
+let iconElement = document.querySelector ("h1.icon")
+iconElement.setAttribute("src",'http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png')
 }
